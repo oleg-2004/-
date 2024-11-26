@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+}
+
+.form-container, .list-container {
+    flex: 1; /* Чтобы каждый столбец занимал равное место */
+    margin: 0 20px;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.list-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-list {
+    margin-top: 20px;
+}
+ 
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.form-container, .list-container {
+    flex: 1;
+    margin: 0 20px;
+}
+
+.form-container {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.list-container {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 столбца */
+    gap: 10px; /* Расстояние между элементами */
+    margin-top: 20px;
+}
+
+.contact-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.favorite {
+    background-color: #ffebee; /* Цвет фона избранных контактов */
+}
+
